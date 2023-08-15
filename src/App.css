@@ -1,10 +1,30 @@
-body {
+.font {
   background-color: #101010;
   font-family: "Roboto", sans-serif;
   color: white;
 }
 
 .logo {
+  margin-left: 15px;
   width: 150px;
   height: 100px;
+}
+
+.container {
+  margin-left: 50px;
+}
+
+.movies {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+  object-fit: cover;
+}
+
+.element {
+  width: 200px;
+  height: 123px;
 }
